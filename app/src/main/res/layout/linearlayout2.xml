@@ -19,7 +19,7 @@
         android:id="@+id/txtVw"/>
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -27,6 +27,7 @@
         android:inputType="text"/>
     <!-- Add Button-->
     <Button
+        android:id="@+id/btn1"
         android:layout_width="117dp"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
