@@ -5,9 +5,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+   android:orientation="horizontal"
     tools:context=".MainActivity">
+    <!-- orientation can also be vertical-->
 
+    <!-- Add Button-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"/>
 
+    <!-- Add Button-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"/>
+
+    <!-- Add Button-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
