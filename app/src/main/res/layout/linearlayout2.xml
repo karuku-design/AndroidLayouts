@@ -4,31 +4,42 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="360dp"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
     <!-- orientation can also be horizontal.-->
 
+    <!--textview,edittext and buttons in vertical order-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Enter your name here:"
+        android:textSize="24dp"
+        android:id="@+id/txtVw"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Name"
+        android:inputType="text"/>
     <!-- Add Button-->
     <Button
         android:layout_width="117dp"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="btn1" />
+        android:text="submit" />
 
     <!-- Add Button-->
     <Button
         android:layout_width="117dp"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="btn2" />
+        android:text="cancel" />
 
-    <!-- Add Button-->
-    <Button
-        android:layout_width="117dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="btn3" />
+
 
 
 
