@@ -14,8 +14,8 @@ class framelayout : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_framelayout)
 
-        textView = findViewById(R.id.txtvw1);
-        editText1 = findViewById(R.id.editText1);
-        editText2 = findViewById(R.id.editText2);
+        textView = findViewById(R.id.txtvw1)
+        editText1 = findViewById(R.id.editText1)
+        editText2 = findViewById(R.id.editText2)
     }
 }
